@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
          steps {
              println 'aca va el build'
-              SH "./build.sh"
+             SH "./build.sh"
          }
          post{
             always{
